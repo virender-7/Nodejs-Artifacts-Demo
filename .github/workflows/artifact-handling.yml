@@ -28,4 +28,4 @@ jobs:
         run: ls -l
 
       - name: Display contents of the artifact
-        run: cat build-log/build.txt
+        run: cat build.txt
