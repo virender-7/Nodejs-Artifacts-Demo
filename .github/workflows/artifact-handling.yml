@@ -23,5 +23,9 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: build-log
+
+      - name: List files in the directory
+        run: ls -l
+
       - name: Display contents of the artifact
-        run: cat build-log
+        run: cat build-log/build.txt
